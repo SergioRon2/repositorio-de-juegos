@@ -41,7 +41,7 @@ a{
     text-align: center;
 }
 .seccion-1{
-    display: grid !important;
+    display: grid;
     padding: 10px;
 }
 
