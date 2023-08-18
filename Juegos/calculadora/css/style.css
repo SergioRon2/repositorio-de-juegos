@@ -1,0 +1,538 @@
+@media (min-width: 1920px) {
+    body{
+        background-color: antiquewhite;
+        box-sizing: border-box;
+    }
+    .calculadora-body{
+        border: 1px solid gray;
+        border-radius: 15px;
+        background-color: rgb(6, 7, 15);
+        margin: 75px auto;
+        width: 50vh;
+        height: 70vh;
+        box-shadow: 20px 20px rgba(0, 0, 0, 0.315);
+    }
+    .casio{
+        user-select: none;
+        padding-left: 15px;
+        font-size: 30px;
+        color: white;   
+    }   
+    .pantalla{
+        border-radius: 5px;
+        margin: auto;
+        width: 90%;
+        background-color: rgb(182, 219, 219);
+        height: 100px;
+    }
+    .tablero-numerico{
+        user-select: none;
+        font-size: 85px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .numeros{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .botones{
+        padding: 15px;
+        margin-top: 14px;
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .botones input{
+        padding: 15px;
+        font-weight: bold;
+        background-color: rgb(107, 141, 209);
+        border: 1px solid white;
+        font-size: 40px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .botones input:hover{
+        background-color: rgb(72, 94, 136);
+    }
+    .botones input:active{
+        background-color: rgb(44, 58, 83);
+        color: white;
+    }
+    .hola-mundo{
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+}
+@media(max-width: 374px){
+    body{
+        background-color: black;
+    }
+    .calculadora-body{
+        border: 1px solid black;
+        background-color: black;
+        margin: auto;
+        width: 50vh;
+        height: 70vh;
+    }
+    .casio{
+        user-select: none;
+        font-size: 30px;
+        color: white;   
+    }   
+    .pantalla{
+        border-radius: 5px;
+        margin: auto;
+        width: 80%;
+        background-color: rgb(182, 219, 219);
+        height: 100px;
+    }
+    .tablero-numerico{
+        user-select: none;
+        font-size: 85px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .numeros{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .botones{
+        padding: 15px;
+        margin-top: 40px;
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .botones input{
+        padding: 15px;
+        font-weight: bold;
+        background-color: rgb(107, 141, 209);
+        border: 1px solid white;
+        font-size: 40px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .botones input:hover{
+        background-color: rgb(72, 94, 136);
+    }
+    .botones input:active{
+        background-color: rgb(44, 58, 83);
+        color: white;
+    }
+    .hola-mundo{
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        margin-top: -24vh;
+        margin-left: 20px;
+    }
+}
+@media(min-width: 375px) and (max-width: 413px) {
+    body{
+        background-color: black;
+    }
+    .calculadora-body{
+        border: 1px solid black;
+        background-color: black;
+        margin: auto;
+        width: 50vh;
+        height: 70vh;
+    }
+    .casio{
+        user-select: none;
+        font-size: 30px;
+        color: white;   
+    }   
+    .pantalla{
+        border-radius: 5px;
+        margin: auto;
+        width: 80%;
+        background-color: rgb(182, 219, 219);
+        height: 100px;
+    }
+    .tablero-numerico{
+        user-select: none;
+        font-size: 85px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .numeros{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .botones{
+        padding: 15px;
+        margin-top: 10px;
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .botones input{
+        padding: 15px;
+        font-weight: bold;
+        background-color: rgb(107, 141, 209);
+        border: 1px solid white;
+        font-size: 40px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .botones input:hover{
+        background-color: rgb(72, 94, 136);
+    }
+    .botones input:active{
+        background-color: rgb(44, 58, 83);
+        color: white;
+    }
+    .hola-mundo{
+        margin-top: 30vh;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+}
+@media(min-width: 414px) and (max-width: 500px) {
+    body{
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .calculadora-body{
+        border: 1px solid black;
+        background-color: black;
+        margin: auto;
+        width: 50vh;
+        height: 70vh;
+    }
+    .casio{
+        user-select: none;
+        font-size: 30px;
+        color: white;   
+    }   
+    .pantalla{
+        border-radius: 5px;
+        margin: auto;
+        width: 80%;
+        background-color: rgb(182, 219, 219);
+        height: 100px;
+    }
+    .tablero-numerico{
+        user-select: none;
+        font-size: 85px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .numeros{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .botones{
+        padding: 15px;
+        margin-top: 10px;
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .botones input{
+        padding: 15px;
+        font-weight: bold;
+        background-color: rgb(107, 141, 209);
+        border: 1px solid white;
+        font-size: 40px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .botones input:hover{
+        background-color: rgb(72, 94, 136);
+    }
+    .botones input:active{
+        background-color: rgb(44, 58, 83);
+        color: white;
+    }
+    .hola-mundo{
+        text-align: center;
+        margin-top: 30vh;
+        color: white;
+        font-weight: bold;
+        z-index: -1;
+    }
+}
+@media(min-width: 500px) and (max-width: 599px) {
+    body{
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .calculadora-body{
+        border: 1px solid black;
+        background-color: black;
+        margin: auto;
+        width: 50vh;
+        height: 70vh;
+    }
+    .casio{
+        user-select: none;
+        font-size: 30px;
+        color: white;   
+    }   
+    .pantalla{
+        border-radius: 5px;
+        margin: auto;
+        width: 80%;
+        background-color: rgb(182, 219, 219);
+        height: 100px;
+    }
+    .tablero-numerico{
+        user-select: none;
+        font-size: 85px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .numeros{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .botones{
+        padding: 15px;
+        margin-top: 10px;
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .botones input{
+        padding: 15px;
+        font-weight: bold;
+        background-color: rgb(107, 141, 209);
+        border: 1px solid white;
+        font-size: 40px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .botones input:hover{
+        background-color: rgb(72, 94, 136);
+    }
+    .botones input:active{
+        background-color: rgb(44, 58, 83);
+        color: white;
+    }
+    .hola-mundo{
+        margin-top: -29vh;
+        color: black;
+        font-weight: bold;
+        z-index: -1;
+    }
+}
+@media(min-width: 600px) and (max-width: 799px) {
+    body{
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .calculadora-body{
+        border: 1px solid black;
+        background-color: black;
+        margin: auto;
+        width: 50vh;
+        height: 70vh;
+    }
+    .casio{
+        user-select: none;
+        font-size: 30px;
+        color: white;   
+    }   
+    .pantalla{
+        border-radius: 5px;
+        margin: auto;
+        width: 80%;
+        background-color: rgb(182, 219, 219);
+        height: 100px;
+    }
+    .tablero-numerico{
+        user-select: none;
+        font-size: 85px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .numeros{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .botones{
+        padding: 15px;
+        margin-top: 10px;
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .botones input{
+        padding: 15px;
+        font-weight: bold;
+        background-color: rgb(107, 141, 209);
+        border: 1px solid white;
+        font-size: 40px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .botones input:hover{
+        background-color: rgb(72, 94, 136);
+    }
+    .botones input:active{
+        background-color: rgb(44, 58, 83);
+        color: white;
+    }
+    .hola-mundo{
+        margin-top: 30vh;
+        color: white;
+        font-weight: bold;
+        z-index: -1;
+    }
+}
+@media(min-width: 800px) and (max-width: 1279px) {
+    body{
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .calculadora-body{
+        border: 1px solid black;
+        background-color: black;
+        margin: auto;
+        width: 50vh;
+        height: 70vh;
+    }
+    .casio{
+        user-select: none;
+        font-size: 20px;
+        color: white;   
+    }   
+    .pantalla{
+        border-radius: 5px;
+        margin: auto;
+        width: 80%;
+        background-color: rgb(182, 219, 219);
+        height: 100px;
+    }
+    .tablero-numerico{
+        user-select: none;
+        font-size: 85px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .numeros{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .botones{
+        padding: 15px;
+        margin-top: 10px;
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .botones input{
+        padding: 15px;
+        font-weight: bold;
+        background-color: rgb(107, 141, 209);
+        border: 1px solid white;
+        font-size: 30px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .botones input:hover{
+        background-color: rgb(72, 94, 136);
+    }
+    .botones input:active{
+        background-color: rgb(44, 58, 83);
+        color: white;
+    }
+    .hola-mundo{
+        margin-top: -30vh;
+        color: white;
+        font-weight: bold;
+        z-index: -1;
+    }
+}
+@media(min-width: 1280px) and (max-width: 1919px) {
+    body{
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .calculadora-body{
+        border: 1px solid black;
+        background-color: black;
+        margin: auto;
+        width: 50vh;
+        height: 70vh;
+    }
+    .casio{
+        user-select: none;
+        font-size: 20px;
+        color: white;   
+    }   
+    .pantalla{
+        border-radius: 5px;
+        margin: auto;
+        width: 80%;
+        background-color: rgb(182, 219, 219);
+        height: 100px;
+    }
+    .tablero-numerico{
+        user-select: none;
+        font-size: 85px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .numeros{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .botones{
+        padding: 15px;
+        margin-top: 10px;
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .botones input{
+        padding: 15px;
+        font-weight: bold;
+        background-color: rgb(107, 141, 209);
+        border: 1px solid white;
+        font-size: 20px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .botones input:hover{
+        background-color: rgb(72, 94, 136);
+    }
+    .botones input:active{
+        background-color: rgb(44, 58, 83);
+        color: white;
+    }
+    .hola-mundo{
+        margin-top: 20vh;
+        color: white;
+        font-weight: bold;
+        z-index: -1;
+    }
+}

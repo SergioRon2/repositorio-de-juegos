@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijeras</title>
+    <link rel="stylesheet" href="../piedra papel y tijeras/css/juego.css">
+    <link rel="shortcut icon" href="/Piedra-papel-y-tijeras/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <audio autoplay loop volume="0">
+        <source src="../piedra papel y tijeras/mp3/012_me ilusione - el binomio de oro.mp3" type="audio/mpeg">
+    </audio>
+    <div class="padre">
+        <div class="contenedor">
+            <div class="cambiar-color">
+                <label for="colorSelect">Selecciona un color de fondo:</label>
+                <select id="colorSelect">
+                    <option value=""></option>
+                    <option value="original">Rosado</option>
+                    <option value="black">Negro</option>
+                    <option value="darkblue">Azul</option>
+                    <option value="darkgreen">Verde</option>
+                    <option value="darkorange">Naranja</option>
+                </select>
+            </div>
+            <h1 class="titulo">HAZ TU ELECCION</h1>
+            <div class="elecciones">
+                <div class="image">
+                    <img src="../piedra papel y tijeras/img/piedra.png" alt="piedra" id="piedra"  width="250" draggable="false">
+                </div>
+                <div class="image">
+                    <img src="../piedra papel y tijeras/img/papel.png" alt="papel" id="papel" width="250" draggable="false">
+                </div>
+                <div class="image">
+                    <img src="../piedra papel y tijeras/img/tijeras.png" alt="tijeras" id="tijeras" width="250" draggable="false">
+                </div>
+            </div>
+            <div class="final">
+                <h1 id="resultado" class="resultado"></h1>
+            </div>
+        </div>
+    </div>
+    <script src="../piedra papel y tijeras/js/app.js"></script>
+</body>
+</html>
